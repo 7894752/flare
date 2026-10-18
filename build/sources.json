@@ -1,0 +1,1024 @@
+{
+ "_comment": "Static build manifest (link order = address order); build.py reads this file only.",
+ "compile_flag_sets": {
+  "gs": [
+   "/nologo",
+   "/c",
+   "/O2",
+   "/Ob1",
+   "/GF",
+   "/Gy",
+   "/ML",
+   "/DWIN32",
+   "/DNDEBUG",
+   "/D_CONSOLE",
+   "/Zi",
+   "/GS"
+  ],
+  "gs_ehsc": [
+   "/nologo",
+   "/c",
+   "/O2",
+   "/Ob1",
+   "/GF",
+   "/Gy",
+   "/ML",
+   "/DWIN32",
+   "/DNDEBUG",
+   "/D_CONSOLE",
+   "/Zi",
+   "/GS",
+   "/EHsc"
+  ],
+  "gs_ehsc_od_ob1": [
+   "/nologo",
+   "/c",
+   "/Ob1",
+   "/GF",
+   "/Gy",
+   "/ML",
+   "/DWIN32",
+   "/DNDEBUG",
+   "/D_CONSOLE",
+   "/Zi",
+   "/GS",
+   "/EHsc",
+   "/Od"
+  ],
+  "gs_ehsc_yx": [
+   "/nologo",
+   "/c",
+   "/O2",
+   "/Ob1",
+   "/GF",
+   "/Gy",
+   "/ML",
+   "/DWIN32",
+   "/DNDEBUG",
+   "/D_CONSOLE",
+   "/GS",
+   "/EHsc",
+   "/YX"
+  ],
+  "gs_ml_ob2": [
+   "/nologo",
+   "/c",
+   "/O2",
+   "/Ob2",
+   "/GF",
+   "/Gy",
+   "/ML",
+   "/DWIN32",
+   "/DNDEBUG",
+   "/D_CONSOLE",
+   "/Zi",
+   "/GS"
+  ],
+  "gs_ob2": [
+   "/nologo",
+   "/c",
+   "/O2",
+   "/Ob2",
+   "/GF",
+   "/Gy",
+   "/ML",
+   "/DWIN32",
+   "/DNDEBUG",
+   "/D_CONSOLE",
+   "/Zi",
+   "/GS"
+  ],
+  "gs_od": [
+   "/nologo",
+   "/c",
+   "/GF",
+   "/Gy",
+   "/ML",
+   "/DWIN32",
+   "/DNDEBUG",
+   "/D_CONSOLE",
+   "/Zi",
+   "/GS",
+   "/Od",
+   "/Ob0"
+  ],
+  "gs_od_ob1": [
+   "/nologo",
+   "/c",
+   "/Ob1",
+   "/GF",
+   "/Gy",
+   "/ML",
+   "/DWIN32",
+   "/DNDEBUG",
+   "/D_CONSOLE",
+   "/Zi",
+   "/GS",
+   "/Od"
+  ],
+  "nogs": [
+   "/nologo",
+   "/c",
+   "/O2",
+   "/Ob1",
+   "/GF",
+   "/Gy",
+   "/ML",
+   "/DWIN32",
+   "/DNDEBUG",
+   "/D_CONSOLE",
+   "/Zi"
+  ],
+  "nogs_ehsc_od_ob1": [
+   "/nologo",
+   "/c",
+   "/Ob1",
+   "/GF",
+   "/Gy",
+   "/ML",
+   "/DWIN32",
+   "/DNDEBUG",
+   "/D_CONSOLE",
+   "/Zi",
+   "/EHsc",
+   "/Od"
+  ],
+  "nogs_mt": [
+   "/nologo",
+   "/c",
+   "/O2",
+   "/Ob1",
+   "/GF",
+   "/Gy",
+   "/MT",
+   "/DWIN32",
+   "/DNDEBUG",
+   "/D_CONSOLE",
+   "/Zi"
+  ]
+ },
+ "translation_units": [
+  {
+   "source": "src/flare/brush.cpp",
+   "flags": "gs_ehsc_yx",
+   "obj": "flare_brush_cpp.obj",
+   "project": "flare",
+   "first_va": "0x00401000"
+  },
+  {
+   "source": "src/flare/bsp.cpp",
+   "flags": "gs_ehsc_od_ob1",
+   "obj": "flare_bsp_cpp.obj",
+   "project": "flare",
+   "first_va": "0x00402190"
+  },
+  {
+   "source": "src/flare/flare.cpp",
+   "flags": "gs_od_ob1",
+   "obj": "flare_flare_cpp.obj",
+   "project": "flare",
+   "first_va": "0x00404B80"
+  },
+  {
+   "source": "src/flare/options.cpp",
+   "flags": "gs_od_ob1",
+   "obj": "flare_options_cpp.obj",
+   "project": "flare",
+   "first_va": "0x00404F00"
+  },
+  {
+   "source": "src/flare/config.cpp",
+   "flags": "gs_od",
+   "obj": "flare_config_cpp.obj",
+   "project": "flare",
+   "first_va": "0x004066C0"
+  },
+  {
+   "source": "src/flare/com_print.cpp",
+   "flags": "gs",
+   "obj": "flare_com_print_cpp.obj",
+   "project": "flare",
+   "first_va": "0x004075E0"
+  },
+  {
+   "source": "src/flare/covariance.cpp",
+   "flags": "gs_od_ob1",
+   "obj": "flare_covariance_cpp.obj",
+   "project": "flare",
+   "first_va": "0x004076D0"
+  },
+  {
+   "source": "src/flare/image.cpp",
+   "flags": "gs_ehsc_yx",
+   "obj": "flare_image_cpp.obj",
+   "project": "flare",
+   "first_va": "0x00408180"
+  },
+  {
+   "source": "src/flare/lightscene.cpp",
+   "flags": "gs_ehsc_od_ob1",
+   "obj": "flare_lightscene_cpp.obj",
+   "project": "flare",
+   "first_va": "0x0040A1F0"
+  },
+  {
+   "source": "src/flare/diffusesunlight.cpp",
+   "flags": "gs_ehsc_od_ob1",
+   "obj": "flare_diffusesunlight_cpp.obj",
+   "project": "flare",
+   "first_va": "0x0040FE00"
+  },
+  {
+   "source": "src/flare/occluder.cpp",
+   "flags": "gs",
+   "obj": "flare_occluder_cpp.obj",
+   "project": "flare",
+   "first_va": "0x0040FEA0"
+  },
+  {
+   "source": "src/flare/occluderpairs.cpp",
+   "flags": "gs",
+   "obj": "flare_occluderpairs_cpp.obj",
+   "project": "flare",
+   "first_va": "0x00410360"
+  },
+  {
+   "source": "src/flare/lightmap.cpp",
+   "flags": "gs_ehsc_od_ob1",
+   "obj": "flare_lightmap_cpp.obj",
+   "project": "flare",
+   "first_va": "0x004103B0"
+  },
+  {
+   "source": "src/flare/litvertex.cpp",
+   "flags": "gs_ehsc",
+   "obj": "flare_litvertex_cpp.obj",
+   "project": "flare",
+   "first_va": "0x004118A0"
+  },
+  {
+   "source": "src/flare/vertexgroup.cpp",
+   "flags": "gs_ehsc",
+   "obj": "flare_vertexgroup_cpp.obj",
+   "project": "flare",
+   "first_va": "0x00411980"
+  },
+  {
+   "source": "src/flare/lightindices.cpp",
+   "flags": "gs_od_ob1",
+   "obj": "flare_lightindices_cpp.obj",
+   "project": "flare",
+   "first_va": "0x00411CC0"
+  },
+  {
+   "source": "src/flare/polygonclip.cpp",
+   "flags": "gs_od_ob1",
+   "obj": "flare_polygonclip_cpp.obj",
+   "project": "flare",
+   "first_va": "0x00412C50"
+  },
+  {
+   "source": "src/flare/model.cpp",
+   "flags": "gs_ehsc_yx",
+   "obj": "flare_model_cpp.obj",
+   "project": "flare",
+   "first_va": "0x00416310"
+  },
+  {
+   "source": "src/flare/parse.cpp",
+   "flags": "gs_od",
+   "obj": "flare_parse_cpp.obj",
+   "project": "flare",
+   "first_va": "0x00416EC0"
+  },
+  {
+   "source": "src/flare/polygon.cpp",
+   "flags": "gs_ehsc_od_ob1",
+   "obj": "flare_polygon_cpp.obj",
+   "project": "flare",
+   "first_va": "0x00417230"
+  },
+  {
+   "source": "src/flare/print.cpp",
+   "flags": "gs_od",
+   "obj": "flare_print_cpp.obj",
+   "project": "flare",
+   "first_va": "0x0041CC90"
+  },
+  {
+   "source": "src/flare/entities.cpp",
+   "flags": "gs_ehsc_od_ob1",
+   "obj": "flare_entities_cpp.obj",
+   "project": "flare",
+   "first_va": "0x0041CFD0"
+  },
+  {
+   "source": "src/flare/bspio.cpp",
+   "flags": "gs_ehsc_od_ob1",
+   "obj": "flare_bspio_cpp.obj",
+   "project": "flare",
+   "first_va": "0x00420350"
+  },
+  {
+   "source": "src/flare/shaders.cpp",
+   "flags": "gs",
+   "obj": "flare_shaders_cpp.obj",
+   "project": "flare",
+   "first_va": "0x00421950"
+  },
+  {
+   "source": "src/flare/trace.cpp",
+   "flags": "gs",
+   "obj": "flare_trace_cpp.obj",
+   "project": "flare",
+   "first_va": "0x00422D00"
+  },
+  {
+   "source": "src/flare/vectorpool.cpp",
+   "flags": "nogs_ehsc_od_ob1",
+   "obj": "flare_vectorpool_cpp.obj",
+   "project": "flare",
+   "first_va": "0x004233E0"
+  },
+  {
+   "source": "src/flare/winding.cpp",
+   "flags": "nogs_ehsc_od_ob1",
+   "obj": "flare_winding_cpp.obj",
+   "project": "flare",
+   "first_va": "0x004236B0"
+  },
+  {
+   "source": "src/flare/preview_step.cpp",
+   "flags": "gs",
+   "obj": "flare_preview_step_cpp.obj",
+   "project": "flare",
+   "first_va": "0x00425830"
+  },
+  {
+   "source": "src/flare/preview_draw.cpp",
+   "flags": "gs",
+   "obj": "flare_preview_draw_cpp.obj",
+   "project": "flare",
+   "first_va": "0x00425B60"
+  },
+  {
+   "source": "src/flare/preview_input.cpp",
+   "flags": "gs",
+   "obj": "flare_preview_input_cpp.obj",
+   "project": "flare",
+   "first_va": "0x00426270"
+  },
+  {
+   "source": "src/flare/preview_render.cpp",
+   "flags": "gs",
+   "obj": "flare_preview_render_cpp.obj",
+   "project": "flare",
+   "first_va": "0x00426700"
+  },
+  {
+   "source": "src/flare/preview_window.cpp",
+   "flags": "gs",
+   "obj": "flare_preview_window_cpp.obj",
+   "project": "flare",
+   "first_va": "0x00429150"
+  },
+  {
+   "source": "src/flare/preview_state.cpp",
+   "flags": "gs",
+   "obj": "flare_preview_state_cpp.obj",
+   "project": "flare",
+   "first_va": "0x0042A130"
+  },
+  {
+   "source": "src/libs/jpeg6b/jcapimin.c",
+   "flags": "nogs",
+   "obj": "libs_jpeg6b_jcapimin_c.obj",
+   "project": "flare",
+   "first_va": "0x0042A620"
+  },
+  {
+   "source": "src/libs/jpeg6b/jcapistd.c",
+   "flags": "nogs",
+   "obj": "libs_jpeg6b_jcapistd_c.obj",
+   "project": "flare",
+   "first_va": "0x0042A9E0"
+  },
+  {
+   "source": "src/libs/jpeg6b/jccoefct.c",
+   "flags": "gs_ob2",
+   "obj": "libs_jpeg6b_jccoefct_c.obj",
+   "project": "flare",
+   "first_va": "0x0042ABF0"
+  },
+  {
+   "source": "src/libs/jpeg6b/jccolor.c",
+   "flags": "nogs",
+   "obj": "libs_jpeg6b_jccolor_c.obj",
+   "project": "flare",
+   "first_va": "0x0042B510"
+  },
+  {
+   "source": "src/libs/jpeg6b/jcdctmgr.c",
+   "flags": "nogs",
+   "obj": "libs_jpeg6b_jcdctmgr_c.obj",
+   "project": "flare",
+   "first_va": "0x0042BC60"
+  },
+  {
+   "source": "src/libs/jpeg6b/jchuff.c",
+   "flags": "gs_ob2",
+   "obj": "libs_jpeg6b_jchuff_c.obj",
+   "project": "flare",
+   "first_va": "0x0042CD90"
+  },
+  {
+   "source": "src/libs/jpeg6b/jcinit.c",
+   "flags": "nogs",
+   "obj": "libs_jpeg6b_jcinit_c.obj",
+   "project": "flare",
+   "first_va": "0x0042DC40"
+  },
+  {
+   "source": "src/libs/jpeg6b/jcmainct.c",
+   "flags": "nogs",
+   "obj": "libs_jpeg6b_jcmainct_c.obj",
+   "project": "flare",
+   "first_va": "0x0042DD00"
+  },
+  {
+   "source": "src/libs/jpeg6b/jcmarker.c",
+   "flags": "gs_ob2",
+   "obj": "libs_jpeg6b_jcmarker_c.obj",
+   "project": "flare",
+   "first_va": "0x0042DE90"
+  },
+  {
+   "source": "src/libs/jpeg6b/jcmaster.c",
+   "flags": "gs",
+   "obj": "libs_jpeg6b_jcmaster_c.obj",
+   "project": "flare",
+   "first_va": "0x0042EE10"
+  },
+  {
+   "source": "src/libs/jpeg6b/jcomapi.c",
+   "flags": "nogs",
+   "obj": "libs_jpeg6b_jcomapi_c.obj",
+   "project": "flare",
+   "first_va": "0x0042F990"
+  },
+  {
+   "source": "src/libs/jpeg6b/jcparam.c",
+   "flags": "gs_ob2",
+   "obj": "libs_jpeg6b_jcparam_c.obj",
+   "project": "flare",
+   "first_va": "0x0042FA30"
+  },
+  {
+   "source": "src/libs/jpeg6b/jcphuff.c",
+   "flags": "gs_ob2",
+   "obj": "libs_jpeg6b_jcphuff_c.obj",
+   "project": "flare",
+   "first_va": "0x00430820"
+  },
+  {
+   "source": "src/libs/jpeg6b/jcprepct.c",
+   "flags": "gs_ob2",
+   "obj": "libs_jpeg6b_jcprepct_c.obj",
+   "project": "flare",
+   "first_va": "0x004315B0"
+  },
+  {
+   "source": "src/libs/jpeg6b/jcsample.c",
+   "flags": "nogs",
+   "obj": "libs_jpeg6b_jcsample_c.obj",
+   "project": "flare",
+   "first_va": "0x00431C60"
+  },
+  {
+   "source": "src/libs/jpeg6b/jctrans.c",
+   "flags": "gs_ob2",
+   "obj": "libs_jpeg6b_jctrans_c.obj",
+   "project": "flare",
+   "first_va": "0x00432600"
+  },
+  {
+   "source": "src/libs/jpeg6b/jdapimin.c",
+   "flags": "gs",
+   "obj": "libs_jpeg6b_jdapimin_c.obj",
+   "project": "flare",
+   "first_va": "0x00432D10"
+  },
+  {
+   "source": "src/libs/jpeg6b/jdapistd.c",
+   "flags": "gs",
+   "obj": "libs_jpeg6b_jdapistd_c.obj",
+   "project": "flare",
+   "first_va": "0x00433230"
+  },
+  {
+   "source": "src/libs/jpeg6b/jdatadst.c",
+   "flags": "gs",
+   "obj": "libs_jpeg6b_jdatadst_c.obj",
+   "project": "flare",
+   "first_va": "0x00433620"
+  },
+  {
+   "source": "src/libs/jpeg6b/jdatasrc.c",
+   "flags": "gs",
+   "obj": "libs_jpeg6b_jdatasrc_c.obj",
+   "project": "flare",
+   "first_va": "0x00433750"
+  },
+  {
+   "source": "src/libs/jpeg6b/jdcoefct.c",
+   "flags": "gs_ob2",
+   "obj": "libs_jpeg6b_jdcoefct_c.obj",
+   "project": "flare",
+   "first_va": "0x00433800"
+  },
+  {
+   "source": "src/libs/jpeg6b/jdcolor.c",
+   "flags": "gs",
+   "obj": "libs_jpeg6b_jdcolor_c.obj",
+   "project": "flare",
+   "first_va": "0x00434850"
+  },
+  {
+   "source": "src/libs/jpeg6b/jddctmgr.c",
+   "flags": "gs",
+   "obj": "libs_jpeg6b_jddctmgr_c.obj",
+   "project": "flare",
+   "first_va": "0x00434E90"
+  },
+  {
+   "source": "src/libs/jpeg6b/jdhuff.c",
+   "flags": "gs",
+   "obj": "libs_jpeg6b_jdhuff_c.obj",
+   "project": "flare",
+   "first_va": "0x004352D0"
+  },
+  {
+   "source": "src/libs/jpeg6b/jdinput.c",
+   "flags": "gs",
+   "obj": "libs_jpeg6b_jdinput_c.obj",
+   "project": "flare",
+   "first_va": "0x00435E10"
+  },
+  {
+   "source": "src/libs/jpeg6b/jdmainct.c",
+   "flags": "gs",
+   "obj": "libs_jpeg6b_jdmainct_c.obj",
+   "project": "flare",
+   "first_va": "0x00436400"
+  },
+  {
+   "source": "src/libs/jpeg6b/jdmarker.c",
+   "flags": "gs_ob2",
+   "obj": "libs_jpeg6b_jdmarker_c.obj",
+   "project": "flare",
+   "first_va": "0x00436AB0"
+  },
+  {
+   "source": "src/libs/jpeg6b/jdmaster.c",
+   "flags": "gs",
+   "obj": "libs_jpeg6b_jdmaster_c.obj",
+   "project": "flare",
+   "first_va": "0x004387F0"
+  },
+  {
+   "source": "src/libs/jpeg6b/jdmerge.c",
+   "flags": "gs",
+   "obj": "libs_jpeg6b_jdmerge_c.obj",
+   "project": "flare",
+   "first_va": "0x00438F10"
+  },
+  {
+   "source": "src/libs/jpeg6b/jdphuff.c",
+   "flags": "gs",
+   "obj": "libs_jpeg6b_jdphuff_c.obj",
+   "project": "flare",
+   "first_va": "0x00439510"
+  },
+  {
+   "source": "src/libs/jpeg6b/jdpostct.c",
+   "flags": "gs",
+   "obj": "libs_jpeg6b_jdpostct_c.obj",
+   "project": "flare",
+   "first_va": "0x0043A1E0"
+  },
+  {
+   "source": "src/libs/jpeg6b/jdsample.c",
+   "flags": "gs",
+   "obj": "libs_jpeg6b_jdsample_c.obj",
+   "project": "flare",
+   "first_va": "0x0043A530"
+  },
+  {
+   "source": "src/libs/jpeg6b/jdtrans.c",
+   "flags": "gs",
+   "obj": "libs_jpeg6b_jdtrans_c.obj",
+   "project": "flare",
+   "first_va": "0x0043AC10"
+  },
+  {
+   "source": "src/libs/jpeg6b/jerror.c",
+   "flags": "gs",
+   "obj": "libs_jpeg6b_jerror_c.obj",
+   "project": "flare",
+   "first_va": "0x0043AD80"
+  },
+  {
+   "source": "src/libs/jpeg6b/jfdctflt.c",
+   "flags": "gs",
+   "obj": "libs_jpeg6b_jfdctflt_c.obj",
+   "project": "flare",
+   "first_va": "0x0043AF60"
+  },
+  {
+   "source": "src/libs/jpeg6b/jfdctfst.c",
+   "flags": "nogs",
+   "obj": "libs_jpeg6b_jfdctfst_c.obj",
+   "project": "flare",
+   "first_va": "0x0043B190"
+  },
+  {
+   "source": "src/libs/jpeg6b/jfdctint.c",
+   "flags": "nogs",
+   "obj": "libs_jpeg6b_jfdctint_c.obj",
+   "project": "flare",
+   "first_va": "0x0043B3A0"
+  },
+  {
+   "source": "src/libs/jpeg6b/jidctflt.c",
+   "flags": "nogs",
+   "obj": "libs_jpeg6b_jidctflt_c.obj",
+   "project": "flare",
+   "first_va": "0x0043B6D0"
+  },
+  {
+   "source": "src/libs/jpeg6b/jidctfst.c",
+   "flags": "nogs",
+   "obj": "libs_jpeg6b_jidctfst_c.obj",
+   "project": "flare",
+   "first_va": "0x0043C7E0"
+  },
+  {
+   "source": "src/libs/jpeg6b/jidctint.c",
+   "flags": "nogs",
+   "obj": "libs_jpeg6b_jidctint_c.obj",
+   "project": "flare",
+   "first_va": "0x0043D180"
+  },
+  {
+   "source": "src/libs/jpeg6b/jidctred.c",
+   "flags": "nogs",
+   "obj": "libs_jpeg6b_jidctred_c.obj",
+   "project": "flare",
+   "first_va": "0x0043DE60"
+  },
+  {
+   "source": "src/libs/jpeg6b/jmemmgr.c",
+   "flags": "gs_ob2",
+   "obj": "libs_jpeg6b_jmemmgr_c.obj",
+   "project": "flare",
+   "first_va": "0x0043E720"
+  },
+  {
+   "source": "src/libs/jpeg6b/jmemnobs.c",
+   "flags": "nogs",
+   "obj": "libs_jpeg6b_jmemnobs_c.obj",
+   "project": "flare",
+   "first_va": "0x0043F380"
+  },
+  {
+   "source": "src/libs/jpeg6b/jquant1.c",
+   "flags": "gs_ob2",
+   "obj": "libs_jpeg6b_jquant1_c.obj",
+   "project": "flare",
+   "first_va": "0x0043F410"
+  },
+  {
+   "source": "src/libs/jpeg6b/jquant2.c",
+   "flags": "gs_ob2",
+   "obj": "libs_jpeg6b_jquant2_c.obj",
+   "project": "flare",
+   "first_va": "0x00440080"
+  },
+  {
+   "source": "src/libs/jpeg6b/jutils.c",
+   "flags": "nogs",
+   "obj": "libs_jpeg6b_jutils_c.obj",
+   "project": "flare",
+   "first_va": "0x00441440"
+  },
+  {
+   "source": "src/flare/light.cpp",
+   "flags": "gs",
+   "obj": "flare_light_cpp.obj",
+   "project": "flare",
+   "first_va": "0x00441510"
+  },
+  {
+   "source": "src/flare/arealight.cpp",
+   "flags": "gs",
+   "obj": "flare_arealight_cpp.obj",
+   "project": "flare",
+   "first_va": "0x00441710"
+  },
+  {
+   "source": "src/flare/directionallight.cpp",
+   "flags": "gs",
+   "obj": "flare_directionallight_cpp.obj",
+   "project": "flare",
+   "first_va": "0x00441920"
+  },
+  {
+   "source": "src/flare/areacelllight.cpp",
+   "flags": "gs",
+   "obj": "flare_areacelllight_cpp.obj",
+   "project": "flare",
+   "first_va": "0x004422E0"
+  },
+  {
+   "source": "src/flare/linearlight.cpp",
+   "flags": "gs",
+   "obj": "flare_linearlight_cpp.obj",
+   "project": "flare",
+   "first_va": "0x00442D50"
+  },
+  {
+   "source": "src/flare/pointlight.cpp",
+   "flags": "gs",
+   "obj": "flare_pointlight_cpp.obj",
+   "project": "flare",
+   "first_va": "0x00442F70"
+  },
+  {
+   "source": "src/flare/adjustedpointlight.cpp",
+   "flags": "gs",
+   "obj": "flare_adjustedpointlight_cpp.obj",
+   "project": "flare",
+   "first_va": "0x004440C0"
+  },
+  {
+   "source": "src/flare/adjustedspotlight.cpp",
+   "flags": "gs",
+   "obj": "flare_adjustedspotlight_cpp.obj",
+   "project": "flare",
+   "first_va": "0x004441F0"
+  },
+  {
+   "source": "src/flare/spotlight.cpp",
+   "flags": "gs",
+   "obj": "flare_spotlight_cpp.obj",
+   "project": "flare",
+   "first_va": "0x00444540"
+  },
+  {
+   "source": "src/flare/sunlight.cpp",
+   "flags": "gs",
+   "obj": "flare_sunlight_cpp.obj",
+   "project": "flare",
+   "first_va": "0x00445020"
+  },
+  {
+   "source": "src/common/bspfile.c",
+   "flags": "gs",
+   "obj": "common_bspfile_c.obj",
+   "project": "flare",
+   "first_va": "0x004455D0"
+  },
+  {
+   "source": "src/flare/polyfile.cpp",
+   "flags": "gs_ehsc_yx",
+   "obj": "flare_polyfile_cpp.obj",
+   "project": "flare",
+   "first_va": "0x00447E50"
+  },
+  {
+   "source": "src/flare/portalfile.cpp",
+   "flags": "gs_ehsc_yx",
+   "obj": "flare_portalfile_cpp.obj",
+   "project": "flare",
+   "first_va": "0x004480B0"
+  },
+  {
+   "source": "src/code/qcommon/com_files.c",
+   "flags": "gs_ml_ob2",
+   "obj": "code_qcommon_com_files_c.obj",
+   "project": "flare",
+   "first_va": "0x004485A0"
+  },
+  {
+   "source": "src/universal/com_math.c",
+   "flags": "gs",
+   "obj": "universal_com_math_c.obj",
+   "project": "flare",
+   "first_va": "0x0044C480"
+  },
+  {
+   "source": "src/code/qcommon/common.c",
+   "flags": "gs",
+   "obj": "code_qcommon_common_c.obj",
+   "project": "flare",
+   "first_va": "0x004506B0"
+  },
+  {
+   "source": "src/universal/com_shared.c",
+   "flags": "gs_ml_ob2",
+   "obj": "universal_com_shared_c.obj",
+   "project": "flare",
+   "first_va": "0x00450AA0"
+  },
+  {
+   "source": "src/universal/cvar.c",
+   "flags": "gs_ob2",
+   "obj": "universal_cvar_c.obj",
+   "project": "flare",
+   "first_va": "0x00451900"
+  },
+  {
+   "source": "src/universal/q_parse.cpp",
+   "flags": "gs_ob2",
+   "obj": "universal_q_parse_cpp.obj",
+   "project": "flare",
+   "first_va": "0x00452180"
+  },
+  {
+   "source": "src/common/q_shared.c",
+   "flags": "gs_ob2",
+   "obj": "common_q_shared_c.obj",
+   "project": "flare",
+   "first_va": "0x00452F30"
+  },
+  {
+   "source": "src/win32/win_common.c",
+   "flags": "gs_ob2",
+   "obj": "win32_win_common_c.obj",
+   "project": "flare",
+   "first_va": "0x004543F0"
+  },
+  {
+   "source": "src/flare/dobj.cpp",
+   "flags": "gs_ob2",
+   "obj": "flare_dobj_cpp.obj",
+   "project": "flare",
+   "first_va": "0x00454A70"
+  },
+  {
+   "source": "src/flare/scr_memorytree.cpp",
+   "flags": "gs_ob2",
+   "obj": "flare_scr_memorytree_cpp.obj",
+   "project": "flare",
+   "first_va": "0x00456DE0"
+  },
+  {
+   "source": "src/flare/scr_stringlist.cpp",
+   "flags": "gs_ob2",
+   "obj": "flare_scr_stringlist_cpp.obj",
+   "project": "flare",
+   "first_va": "0x004577D0"
+  },
+  {
+   "source": "src/flare/xmodel.cpp",
+   "flags": "gs_ob2",
+   "obj": "flare_xmodel_cpp.obj",
+   "project": "flare",
+   "first_va": "0x004584B0"
+  },
+  {
+   "source": "src/libs/zlib/adler32.c",
+   "flags": "gs",
+   "obj": "libs_zlib_adler32_c.obj",
+   "project": "flare",
+   "first_va": "0x0045A6C0"
+  },
+  {
+   "source": "src/libs/zlib/compress.c",
+   "flags": "gs",
+   "obj": "libs_zlib_compress_c.obj",
+   "project": "flare",
+   "first_va": "0x0045A7F0"
+  },
+  {
+   "source": "src/libs/zlib/crc32.c",
+   "flags": "gs",
+   "obj": "libs_zlib_crc32_c.obj",
+   "project": "flare",
+   "first_va": "0x0045A8C0"
+  },
+  {
+   "source": "src/libs/zlib/deflate.c",
+   "flags": "gs_ob2",
+   "obj": "libs_zlib_deflate_c.obj",
+   "project": "flare",
+   "first_va": "0x0045AA00"
+  },
+  {
+   "source": "src/libs/zlib/infblock.c",
+   "flags": "gs",
+   "obj": "libs_zlib_infblock_c.obj",
+   "project": "flare",
+   "first_va": "0x0045C330"
+  },
+  {
+   "source": "src/libs/zlib/infcodes.c",
+   "flags": "gs",
+   "obj": "libs_zlib_infcodes_c.obj",
+   "project": "flare",
+   "first_va": "0x0045D040"
+  },
+  {
+   "source": "src/libs/zlib/inffast.c",
+   "flags": "gs",
+   "obj": "libs_zlib_inffast_c.obj",
+   "project": "flare",
+   "first_va": "0x0045D7C0"
+  },
+  {
+   "source": "src/libs/zlib/inflate.c",
+   "flags": "gs",
+   "obj": "libs_zlib_inflate_c.obj",
+   "project": "flare",
+   "first_va": "0x0045DB60"
+  },
+  {
+   "source": "src/libs/zlib/inftrees.c",
+   "flags": "gs",
+   "obj": "libs_zlib_inftrees_c.obj",
+   "project": "flare",
+   "first_va": "0x0045E2B0"
+  },
+  {
+   "source": "src/libs/zlib/infutil.c",
+   "flags": "gs",
+   "obj": "libs_zlib_infutil_c.obj",
+   "project": "flare",
+   "first_va": "0x0045EA10"
+  },
+  {
+   "source": "src/libs/zlib/trees.c",
+   "flags": "gs_ob2",
+   "obj": "libs_zlib_trees_c.obj",
+   "project": "flare",
+   "first_va": "0x0045EB40"
+  },
+  {
+   "source": "src/libs/zlib/uncompr.c",
+   "flags": "gs",
+   "obj": "libs_zlib_uncompr_c.obj",
+   "project": "flare",
+   "first_va": "0x00460600"
+  },
+  {
+   "source": "src/code/qcommon/unzip.c",
+   "flags": "gs_ob2",
+   "obj": "code_qcommon_unzip_c.obj",
+   "project": "flare",
+   "first_va": "0x004606A0"
+  },
+  {
+   "source": "src/libs/zlib/zutil.c",
+   "flags": "gs",
+   "obj": "libs_zlib_zutil_c.obj",
+   "project": "flare",
+   "first_va": "0x004619B0"
+  },
+  {
+   "source": "src/libs/cmdlib/cmdlib.cpp",
+   "flags": "nogs_mt",
+   "obj": "libs_cmdlib_cmdlib_cpp.obj",
+   "project": "cmdlib",
+   "first_va": "0x00461BE0"
+  }
+ ],
+ "static_libraries": {
+  "cmdlib": [
+   "libs_cmdlib_cmdlib_cpp.obj"
+  ]
+ },
+ "link_flags": [
+  "/NOLOGO",
+  "/MACHINE:IX86",
+  "/INCREMENTAL:NO",
+  "/DEBUG",
+  "/SUBSYSTEM:CONSOLE",
+  "/STACK:8388608,4096",
+  "/OPT:WIN98",
+  "/OPT:NOREF",
+  "/OPT:NOICF",
+  "/NODEFAULTLIB:LIBCMT",
+  "/PDBALTPATH:d:\\projects\\mk\\bin\\flare.pdb"
+ ],
+ "link_include_roots": [],
+ "link_libraries": [
+  "opengl32.lib",
+  "glu32.lib",
+  "winmm.lib",
+  "kernel32.lib",
+  "user32.lib",
+  "gdi32.lib",
+  "@cmdlib"
+ ],
+ "link_inputs_note": "objects of project flare in translation_units order (= target address order), then link_libraries; libc/oldnames are implicit (the /ML objects carry the LIBC default-lib directive, the /MT cmdlib object adds LIBCMT, which /NODEFAULTLIB:LIBCMT removes - without it libcmt pulls 24 extra members)"
+}

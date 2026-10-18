@@ -1,0 +1,7 @@
+{
+  "source": "original flare.exe; verified against SHA-256 3d825c0eb656faff02dbcb6c5773253966238695774eeef6f35fa9620ef3534e (values only)",
+  "timestamp": 1066417562,
+  "rsds_guid_hex": "fdcc5571d2f0824a8cff6acf0eff1d45",
+  "rsds_age": 215,
+  "notes": "flare has one 28-byte CodeView debug-directory entry at RVA 0x74290 and a 53-byte RSDS record at file offset 0x83134, age 215, path d:\\projects\\mk\\bin\\flare.pdb. COFF and debug timestamps are 0x3F903D9A (2003-10-17 19:06:02 UTC). Only timestamp/GUID/age are stamped into a separate copy; the Rich header, path, layout and code/data are never stamped. Metadata stamping alone does not imply byte identity."
+}
